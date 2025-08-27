@@ -20,6 +20,10 @@ list_of_files = [
     f"src/{project_name}/database/__init__.py",   # 👈 new database package
     f"src/{project_name}/database/db.py",        # 👈 database connection
     f"src/{project_name}/database/models.py",
+     f"src/{project_name}/hardware/arduino_interface.py",   # handles serial comm
+    f"src/{project_name}/hardware/camera.py",              # handles video feed
+    f"src/{project_name}/hardware/arm_controller.py",      # waste → servo mapping
+    "arduino/robotic_arm.ino",  
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
